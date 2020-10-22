@@ -2,7 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://frankcarmona14.github.io/Portafolio",
+  "homepage": "http://frankcarmona.xyz",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -13,7 +13,7 @@
     "react-scripts": "3.4.4"
   },
   "scripts": {
-    "predeploy": "npm run build && echo 'frankcarmona.xyz' > ./build/CNAME ",
+    "predeploy": "npm run build && echo frankcarmona.xyz > ./build/CNAME ",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
