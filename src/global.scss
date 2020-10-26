@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+
+$color1: #192231;
+$color2: #985e6d;
+$palido: #98878f;
+$azul: #494e6b;
+$blanco : #FFF;
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: $blanco;
+  background-color: $color1;
+}
+
+a{
+  text-decoration: none;
+  color: $blanco;
+}
+
+.logo-tag{
+  color: $color2;
+}
+
+/* 
+1. Posicionamiento
+2. Modelo caja
+3. Tipografia
+4. Visuales
+5. Otros ()
+*/
