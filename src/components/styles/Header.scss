@@ -1,0 +1,17 @@
+@import "../../global.scss";
+
+.Header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+}
+
+.Navbar {
+  width: 100%;
+  background-color: $color1;
+}
