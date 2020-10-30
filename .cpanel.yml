@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
-    - / -R build $DEPLOYPATH
+    - export DEPLOYPATH=/home/francwbp/public_html/
+    - /bin/cp -R build $DEPLOYPATH
